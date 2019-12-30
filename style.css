@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+body {
+  font-family: 'Poppins';
+  font-size: 12px;
+  margin: 0 5% 0 5%;
+  padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 2.3em 0 0.9em 0;
+    font-size: 5em;
+    font-weight: bolder;
+    /*
+    text-shadow: 1px 0 #000000; -> Was meant to artificially inflate the font due to missing
+    bold type inside @import url. Now fixed and thus not needed anymore. */
+}
+
+h3 {
+    margin: 2.5em 0 0.5em 0;
+    padding: 0 1em 0 1em;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    font-size: 2em;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    color: #ED1C24;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+article {
+    width: 42%;
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 2em;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+
+  nav {
+    width: 500px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackheart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+#npmlogo { width: 40px; }
+
+#magnifyingglass { width: 20px; padding-right: 10px;}
+
+.searchform {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    width:80%;
+    margin: 5px 0 5px 0;
+}
+
+.searchform > div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 10px; 
+    width: 100%;
+}
+
+.searchform input {
+    color: rgba(0,0,0,.5);
+    background-color: rgb(242,242,242);
+    border: none;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+.searchform button {
+    background-color: #fb3e44;
+    color: white;
+    border: none;
+    margin: 0px;
+    padding: 9px;
+}
+
+.link-btn-top {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(117,117,117);
+    padding: 5px 10px 5px 10px;
+}
+
+#joinbutton {
+    border: 1px solid #DDDDDD;
+
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(247,244,244);
+    padding: 0px;
+    height: 600px;
+}
+
+.link-btn {
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(14,14,14);
+    margin: 1em;
+    padding: 0.7em 3.5em 0.7em 3.5em;
+    font-weight: bolder;
+}
+
+#plans-btn {
+    background-color: #FB3B49;
+    box-shadow: 6px 6px 0 rgba(251,59,73,.2);
+    color: white;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5em 0 1em 0;
+}
+
+#triangleHexagon { width: 180px;}
+
+#secondText { 
+    font-size: 1em;
+    width: 55%;
+    color: black;
+  }
+
+.thirdSection {
+    margin: 3em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#plusPoints {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 90%;
+}
+
+#plusPoints > div {
+    padding: 2em;
+}
+
+.thirdSection img {
+    width: 25px;
+    padding: 0 0 0.5em 0;
+}
+
+.thirdSection button {
+    margin: 3em 0 8em 0;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    color: white;
+    width: 30%;
+}
